@@ -1,10 +1,9 @@
 import "@styles/globals.css";
-import Navbar from "../components/Navbar";
+import Navbar from "./components/Navbar";
 export const metadata = {
   title: "Promptopia",
   description: "Discover & Share AI Prompts",
 };
-
 const RootLayout = ({ children }) => (
   <html lang="en">
     <body>
